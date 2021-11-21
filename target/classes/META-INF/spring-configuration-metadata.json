@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "readYml.Person",
+      "sourceType": "readYml.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "readYml.Dog",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.gender",
+      "type": "java.lang.String",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "readYml.Person"
+    },
+    {
+      "name": "person.salary",
+      "type": "java.lang.Integer",
+      "sourceType": "readYml.Person"
+    }
+  ],
+  "hints": []
+}

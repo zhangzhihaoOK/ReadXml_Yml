@@ -1,0 +1,37 @@
+#server:
+#  port: 8888
+
+  ##  YAML 字面量写法
+  #  name1: 'zhang /n list'
+  #  name2: "zhang /n list"
+  #
+  ##  YAML 对象写法  在 YAML 中，对象可能包含多个属性，每一个属性都是一对键值对。
+  #  website:
+  #    name: baidu
+  #    url: www.baidu.com
+  #
+  #  wensite: [name: baidu,url: www.baidu.com]
+  #
+  ##  YAML 数组写法
+  ##  YAML 使用“-”表示数组中的元素，普通写法如下：
+  #  pets1:
+  #    -dog
+  #    -cat
+  #    -pig
+  ##  行内写法
+  #  pets2: [dog,cat,pig]
+
+  person:
+    name: 张三
+    age: 25
+    gender: 男
+    salary: 8000
+    boss: false
+    maps: [k1: 斗罗大陆,萧炎: 斗破苍穹]
+    lists:
+      - 徐凤年
+      - 许七安
+    dog:
+      name: 迪迪
+      age: 5
+
